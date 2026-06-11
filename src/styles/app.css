@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.card img {
+  width: 100px;
+  
+}
+
+.pagination {
+  margin-top: 30px;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+}
