@@ -2,6 +2,8 @@ import { createBrowserRouter } from 'react-router-dom'
 import App from './App'
 import Home from './pages/Home'
 import Imc from './pages/Imc'
+import Agenda from './pages/Agenda'
+import Contacto from './pages/Contacto'
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +19,14 @@ export const router = createBrowserRouter([
             {
                 path: "/imc",
                 element: <Imc/>
+            },
+            {
+                path: "/agenda",
+                element: <Agenda/>
+            },
+             {
+                path: "/contacto",
+                element: <Contacto/>
             },
             {
                 // Una ruta de error, cualquier ruta mal escrita te lleva a esta pagina

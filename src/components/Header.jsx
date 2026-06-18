@@ -1,32 +1,44 @@
 import { NavLink } from "react-router-dom";
+import "../styles/header.css";
+import logo from "../assets/img/logo.png";
 
 function Header() {
   return (
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
-            Ecommerce
+          <NavLink className="navbar-brand" to="/" >
+            <img src={logo} alt="Logo" width={40} height={40} />
+             <span> Oke</span>
           </NavLink>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/">
-                  Home
+                <NavLink className="nav-link text-success-emphasis" aria-current="page" to="/agenda">
+                  Agenda
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
-                  className="nav-link"
+                  className="nav-link text-success-emphasis"
                   aria-current="page"
-                  to="/products"
+                  to="/imc"
                 >
-                  Productos
+                  IMC
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link text-success-emphasis"
+                  aria-current="page"
+                  to="/contacto"
+                >
+                  Contacto
                 </NavLink>
               </li>
             </ul>
           </div>
-        </div>
+        
       </nav>
     </header>
   );

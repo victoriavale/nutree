@@ -43,9 +43,9 @@ const Home = () => {
 
     <div>
 
-      <h2>
+      <h4 className="titIngredientes">
         Ingredientes recomendados
-      </h2>
+      </h4>
 
       <IngredientList
         ingredients={currentIngredients}
