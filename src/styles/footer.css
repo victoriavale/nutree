@@ -1,6 +1,6 @@
 .footer-section {
   /*background-image: url(../assets/img/footer.jpg);*/
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)),url('../assets/img/footer.jpg');
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)),url('../assets/img/footer2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,0 +1,96 @@
+
+
+
+  form {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+
+
+   th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+
+
+  h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  
+  table {
+    width: 100%;
+    background-color: white;
+ 
+  }
+
+
+ button {
+   
+  border-radius: 10px;
+
+  background-color: #37b98bcb;
+
+  border: none;
+
+  padding: 10px 25px;
+
+  font-weight: bold;
+
+  color: white;
+
+  cursor: pointer;
+
+  margin-top: 20px;
+
+  }
+
+
+ button:hover {
+    background-color: #37b98b;
+  }
+
+  .flex-container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.flex-item {
+  padding: 30px;
+
+  border: #37b98bcb;
+
+  background-color: white;
+
+  border-radius: 20px;
+
+  max-width: 600px;
+
+  width: 100%;
+}
